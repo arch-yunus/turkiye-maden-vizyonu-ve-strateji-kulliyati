@@ -1,0 +1,20 @@
+[
+  {
+    "saha_adi": "Copler",
+    "il": "Erzincan",
+    "potansiyel_tenor": "2.5 g/t",
+    "durum": "Aktif Isletme"
+  },
+  {
+    "saha_adi": "Kisladag",
+    "il": "Usak",
+    "potansiyel_tenor": "0.7 g/t",
+    "durum": "Aktif Isletme"
+  },
+  {
+    "saha_adi": "Oksut",
+    "il": "Kayseri",
+    "potansiyel_tenor": "1.8 g/t",
+    "durum": "Aktif Isletme"
+  }
+]

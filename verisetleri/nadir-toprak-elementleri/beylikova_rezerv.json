@@ -1,0 +1,17 @@
+{
+  "bolge": "Eskisehir-Beylikova",
+  "mineral_turu": "Nadir Toprak Elementleri (NTE)",
+  "rezerv_miktari": {
+    "toplam_cevher": 694000000,
+    "birim": "ton"
+  },
+  "tespit_edilen_elementler": [
+    "Seryum (Ce)",
+    "Lantan (La)",
+    "Neodimyum (Nd)",
+    "Praseodimyum (Pr)"
+  ],
+  "isletme_turu": "Acik Ocak",
+  "teknoloji_gereksinimi": "Kompleks Cevher Zenginlestirme Tesisleri",
+  "stratejik_onem": "Dunyada ikinci en buyuk NTE rezervi"
+}
