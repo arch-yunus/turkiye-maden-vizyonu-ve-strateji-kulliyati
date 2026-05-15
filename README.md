@@ -1,14 +1,13 @@
-﻿![Madencilik 4.0 TR Banner](assets/banner.png)
+![Madencilik 4.0 TR Banner](assets/banner.png)
 
 # Madencilik-4.0-TR: Yeni Nesil Maden Envanteri ve Teknolojik Cikarim Mimarisi
 
 **Turkiye'nin Yeralti Kaynaklarini Endustri 4.0 ve Yapay Zeka ile Gelecege Tasiyan Dijital Kulliyat.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
-[![Status: Active](https://img.shields.io/badge/Proje%20Durumu-Aktif-blue.svg)](#)
-[![Python: 3.x](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
-[![Docs: Turkce](https://img.shields.io/badge/Dil-Turkce-red.svg)](#)
+[![Dil: Turkce](https://img.shields.io/badge/Dil-Turkce-red.svg)](#)
+[![License: MIT](https://img.shields.io/badge/Lisans-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/Katki-Acik-brightgreen.svg)](CONTRIBUTING.md)
+[![Status: Active](https://img.shields.io/badge/Durum-Aktif-blue.svg)](#)
 [![Coverage: 7 Modul](https://img.shields.io/badge/Modul-7%20Alan-orange.svg)](#proje-mimarisi-ve-moduller)
 
 ---
@@ -43,13 +42,14 @@ Madencilik-4.0-TR/
 +-- verisetleri/                          # Ham ve Islenmis Maden Verileri
 |   +-- nadir-toprak-elementleri/
 |   |   +-- nte_rezervleri_turkiye.md    # NTE rezerv analizi
-|   |   \-- nte_kuresel_karsilastirma.md # Kuresel benchmark
+|   |   +-- nte_kuresel_karsilastirma.md # Kuresel benchmark
+|   |   \-- nte_uretim_teknolojileri.md
 |   +-- endustriyel-hammaddeler/
 |   |   \-- bor_uretim_istatistikleri.json
 |   \-- stratejik-metaller/
 |       +-- altin_potansiyeli.json
 |       +-- bakir_rezervleri.json
-|       \-- lityum_projeksiyonlari.json   # YENi
+|       \-- lityum_projeksiyonlari.json
 |
 +-- teknolojiler/                         # Madencilik 4.0 Teknolojik Analizleri
 |   +-- otonom-sistemler.md
@@ -57,12 +57,12 @@ Madencilik-4.0-TR/
 |   +-- uzaktan-algilama.md
 |   +-- yapay-zeka-sismik.md
 |   +-- hidrometalurji-ve-cevher.md
-|   +-- dijital-ikiz.md                  # YENi
-|   \-- blokzincir-maden-takip.md        # YENi
+|   +-- dijital-ikiz.md
+|   \-- blokzincir-maden-takip.md
 |
 +-- maliyet-analizi/                      # Ekonomik Projeksiyonlar
 |   +-- rapor.md
-|   \-- yatirim-getiri-analizi.md        # YENi
+|   \-- yatirim-getiri-analizi.md
 |
 +-- haritalama/                           # GIS ve Mekansal Analiz
 |   +-- maden_haritalama.py
@@ -71,18 +71,36 @@ Madencilik-4.0-TR/
 |
 +-- vaka-analizleri/                      # Sektorel Donusum Ornekleri
 |   +-- teknolojik-donusum-ornekleri.md
-|   +-- kuresel-benchmark-madencilik.md  # YENi
-|   \-- gelecek-senaryolari.md           # YENi
+|   +-- kuresel-benchmark-madencilik.md
+|   \-- gelecek-senaryolari.md
 |
 +-- etik-ve-cevre/                        # ESG ve Surdurulebilirlik
 |   +-- surdurulebilirlik-standartlari.md
-|   +-- karbon-ayak-izi-hesaplama.md     # YENi
-|   \-- toplumsal-etki-degerlendirme.md  # YENi
+|   +-- karbon-ayak-izi-hesaplama.md
+|   \-- toplumsal-etki-degerlendirme.md
 |
-\-- politika-ve-strateji/                 # Yasal Cerceve (YENi MODUL)
-    +-- maden-kanunu-analizi.md
-    +-- ulusal-maden-politikasi.md
-    \-- ab-kritik-hammadde-yasasi.md
++-- politika-ve-strateji/                 # Yasal Cerceve ve Ulusal Vizyon
+|   +-- maden-kanunu-analizi.md
+|   +-- ulusal-maden-politikasi.md
+|   \-- ab-kritik-hammadde-yasasi.md
+|
++-- guvenlik-ve-is-sagligi/               # 0 Kaza Hedefi ve Dijital Guvenlik
+|   +-- yeralti-guvenlik-sistemleri.md
+|   \-- acil-mudahale-planlama.md
+|
++-- egitim-ve-insan-kaynagi/              # Yetkinlik Donusumu
+|   \-- dijital-madencilik-egitim-cercevesi.md
+|
++-- arastirma-ve-inovasyon/               # Yerli Teknoloji Ekosistemi
+|   \-- ar-ge-ekosistemi.md
+|
++-- ihracat-ve-pazar/                     # Katma Deger Odakli Ticaret
+|   +-- turkiye-maden-ihracati-analizi.md
+|   \-- katma-deger-stratejisi.md
+|
+\-- dokumantasyon/                        # Genel Dokumantasyon ve Kaynakca
+    +-- terimler-sozlugu.md
+    \-- akademik-referanslar.md
 ```
 
 ---
