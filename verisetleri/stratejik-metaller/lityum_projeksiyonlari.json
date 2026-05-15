@@ -1,0 +1,57 @@
+﻿{
+  "meta": {
+    "veri_kaynagi": "IEA, USGS, MTA Arama Raporlari (2024)",
+    "guncelleme_tarihi": "2025-05",
+    "aciklama": "Turkiye lityum potansiyeli ve kuresel talep projeksiyon verileri"
+  },
+  "kuresel_talep_projeksiyonu": {
+    "birim": "1000 ton LCE (Lityum Karbonat Esdeleri)",
+    "yillar": {
+      "2024": 990,
+      "2025": 1350,
+      "2026": 1740,
+      "2027": 2200,
+      "2028": 2750,
+      "2030": 4000,
+      "2035": 8500,
+      "2040": 14000
+    },
+    "ana_talep_surucusu": "Elektrikli Arac Bataryalari (%75 pay 2030'da)"
+  },
+  "turkiye_potansiyeli": {
+    "ozet": "Turkiye'de ticari olcekte lityum rezervi henuz tespit edilmemistir. Ancak Eskisehir, Afyon, Kutahya bolgelerinde litrik jeotermal sular ve bazi pegalit kirintilari potansiyel gostermektedir.",
+    "potansiyel_lokasyonlar": [
+      {
+        "lokasyon": "Bigadic Jeotermal Alani",
+        "il": "Balikesir",
+        "mineral_tipi": "Jeotermal sivi (Li-zengin)",
+        "gosterge_konsantrasyon_ppm": "45-120",
+        "durum": "MTA Arama Calismasi",
+        "not": "Direkt Lityum Ekstraksiyon (DLE) teknolojisiyle ekonomik esige ulasmasi arastiriliyor"
+      },
+      {
+        "lokasyon": "Afyon Jeotermal Zonlari",
+        "il": "Afyonkarahisar",
+        "mineral_tipi": "Jeotermal sivi",
+        "gosterge_konsantrasyon_ppm": "30-80",
+        "durum": "Gosterge Bulgu",
+        "not": "Jeotermal enerji tesisleri ile sinerji potansiyeli"
+      },
+      {
+        "lokasyon": "Konya Tuz Golu Havzasi",
+        "il": "Konya/Aksaray",
+        "mineral_tipi": "Brine (tuzlu su lityumu)",
+        "gosterge_konsantrasyon_ppm": "20-50",
+        "durum": "Erken Arama",
+        "not": "Siili/Arjantin tipi tuzla havzasiyla karsilastirmali potansiyel dusuk"
+      }
+    ],
+    "degerlendirme": "Mevcut verilerle Turkiye'de buyuk olcekli lityum madenciligi icin yeterli kesinlestirilmis rezerv yoktur. DLE teknolojisinin gelismesi durumunda jeotermal suya dayanarak sinirli miktarda uretim mumkun olabilir."
+  },
+  "turkiye_lityum_ithalati": {
+    "2023_ithalat_ton": 4800,
+    "ana_tedarik_ulkeler": ["Siili", "Avustralya", "Arjantin"],
+    "kullanim_alanlari": ["Pil ve batarya", "Seramik ve cam", "Iiac"],
+    "yurt_ici_baterya_uretimi_hedefi": "2030'da 20 GWh yurt ici EV baterya kapasitesi"
+  }
+}

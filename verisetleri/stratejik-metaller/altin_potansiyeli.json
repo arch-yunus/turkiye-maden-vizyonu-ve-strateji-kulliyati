@@ -1,20 +1,106 @@
-[
-  {
-    "saha_adi": "Copler",
-    "il": "Erzincan",
-    "potansiyel_tenor": "2.5 g/t",
-    "durum": "Aktif Isletme"
+﻿{
+  "meta": {
+    "veri_kaynagi": "MTA, MAPEG, Sirket Raporlari (2024)",
+    "guncelleme_tarihi": "2025-05",
+    "birim_aciklamalar": {
+      "tenor": "g/t (gram altin / ton cevher)",
+      "rezerv": "ton altin metali",
+      "kapasite": "ton cevher/yil"
+    }
   },
-  {
-    "saha_adi": "Kisladag",
-    "il": "Usak",
-    "potansiyel_tenor": "0.7 g/t",
-    "durum": "Aktif Isletme"
-  },
-  {
-    "saha_adi": "Oksut",
-    "il": "Kayseri",
-    "potansiyel_tenor": "1.8 g/t",
-    "durum": "Aktif Isletme"
+  "aktif_isletmeler": [
+    {
+      "saha_adi": "Copler (Anagold)",
+      "il": "Erzincan",
+      "ilce": "Iilic",
+      "koordinat_wgs84": {"lat": 39.43, "lon": 38.78},
+      "potansiyel_tenor": "2.5 g/t",
+      "gosterge_rezerv_ton": 312,
+      "uretim_kapasitesi_ton_cevher_yil": 12000000,
+      "isletme_turu": "Heap Leach + CIL",
+      "durum": "Aktif Isletme",
+      "operator": "Anagold (SSR Mining %80 + Lidya Madencilik %20)",
+      "ilk_uretim_yili": 2010,
+      "not": "Subat 2024 kayma kazasi sonrasi uretim kismen durduruldu"
+    },
+    {
+      "saha_adi": "Kisladag",
+      "il": "Usak",
+      "ilce": "Merkez",
+      "koordinat_wgs84": {"lat": 38.86, "lon": 29.21},
+      "potansiyel_tenor": "0.7 g/t",
+      "gosterge_rezerv_ton": 145,
+      "uretim_kapasitesi_ton_cevher_yil": 22000000,
+      "isletme_turu": "Heap Leach",
+      "durum": "Aktif Isletme",
+      "operator": "Eldorado Gold (Tuprag)",
+      "ilk_uretim_yili": 2006,
+      "not": "Dusuk tenor, yuksek hacim modeliyle Turkiye'nin en buyuk altin uretimi"
+    },
+    {
+      "saha_adi": "Oksut",
+      "il": "Kayseri",
+      "ilce": "Develi",
+      "koordinat_wgs84": {"lat": 38.24, "lon": 35.51},
+      "potansiyel_tenor": "1.8 g/t",
+      "gosterge_rezerv_ton": 87,
+      "uretim_kapasitesi_ton_cevher_yil": 5500000,
+      "isletme_turu": "Carbon-in-Leach (CIL)",
+      "durum": "Aktif Isletme",
+      "operator": "Centerra Gold (Oksut Madencilik)",
+      "ilk_uretim_yili": 2020
+    },
+    {
+      "saha_adi": "Efemcukuru",
+      "il": "Izmir",
+      "ilce": "Kemalpasa",
+      "koordinat_wgs84": {"lat": 38.37, "lon": 27.22},
+      "potansiyel_tenor": "8.5 g/t",
+      "gosterge_rezerv_ton": 42,
+      "uretim_kapasitesi_ton_cevher_yil": 680000,
+      "isletme_turu": "Yeralti - CIL",
+      "durum": "Aktif Isletme",
+      "operator": "Eldorado Gold (Tuprag)",
+      "ilk_uretim_yili": 2011,
+      "not": "Yuksek tenor veya verdi yeralti madeni"
+    },
+    {
+      "saha_adi": "Mastra",
+      "il": "Gumushane",
+      "ilce": "Torul",
+      "koordinat_wgs84": {"lat": 40.54, "lon": 39.28},
+      "potansiyel_tenor": "4.2 g/t",
+      "gosterge_rezerv_ton": 28,
+      "uretim_kapasitesi_ton_cevher_yil": 2800000,
+      "isletme_turu": "CIL",
+      "durum": "Aktif Isletme",
+      "operator": "Koza Altin Isletmeleri",
+      "ilk_uretim_yili": 2009
+    }
+  ],
+  "gelistirme_sahalar": [
+    {
+      "saha_adi": "Halilaga",
+      "il": "Canakkale",
+      "durum": "Etude/Gelistirme",
+      "gosterge_rezerv_ton": 210,
+      "potansiyel_tenor": "0.5 g/t",
+      "not": "Buyuk bakir-altin cevherlesmesi; cevresel itirazlar mevcut"
+    },
+    {
+      "saha_adi": "Goltas",
+      "il": "Kutahya",
+      "durum": "Arama Sahasi",
+      "gosterge_rezerv_ton": null,
+      "potansiyel_tenor": null
+    }
+  ],
+  "ulke_ozeti_2024": {
+    "toplam_altin_uretimi_ton": 42,
+    "kuresel_sira": 19,
+    "tahmin_rezerv_ton": 950,
+    "yillik_buyume_orani": "2.8%",
+    "en_buyuk_uretici": "Eldorado Gold (Tuprag)",
+    "ihracat_degeri_milyon_usd": 2600
   }
-]
+}
