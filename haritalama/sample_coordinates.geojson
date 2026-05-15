@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "ad": "Beylikova NTE Sahasi",
+        "tur": "Nadir Toprak Elementleri",
+        "rezerv": "694M Ton"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.18, 39.68]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ad": "Kirka Bor Isletmesi",
+        "tur": "Bor",
+        "rezerv": "Yuksek"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [30.53, 39.29]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "ad": "Copler Altin Madeni",
+        "tur": "Altin",
+        "rezerv": "Orta"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.54, 39.42]
+      }
+    }
+  ]
+}

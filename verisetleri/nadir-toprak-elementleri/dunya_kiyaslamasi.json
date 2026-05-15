@@ -1,0 +1,32 @@
+{
+  "analiz_tarihi": "2024-05",
+  "birim": "Milyon Ton (Rezerv)",
+  "veriler": [
+    {
+      "ulke": "Cin",
+      "rezerv": 44,
+      "pazar_payi": "60%"
+    },
+    {
+      "ulke": "Vietnam",
+      "rezerv": 22,
+      "pazar_payi": "1%"
+    },
+    {
+      "ulke": "Brezilya",
+      "rezerv": 21,
+      "pazar_payi": "0.5%"
+    },
+    {
+      "ulke": "Rusya",
+      "rezerv": 21,
+      "pazar_payi": "1.2%"
+    },
+    {
+      "ulke": "Turkiye (Beylikova Potansiyeli)",
+      "rezerv": 694,
+      "not": "Cevher miktarıdır, metal içeriği ayrıştırma sonrası netleşecektir.",
+      "pazar_payi": "Potansiyel Lider"
+    }
+  ]
+}
