@@ -1,193 +1,173 @@
 ![Madencilik 4.0 TR Banner](assets/banner.png)
 
-# Madencilik-4.0-TR: Yeni Nesil Maden Envanteri ve Teknolojik Cikarim Mimarisi
+# ⛏️ Madencilik-4.0-TR: Yeni Nesil Dijital Maden Külliyatı
 
-**Turkiye'nin Yeralti Kaynaklarini Endustri 4.0 ve Yapay Zeka ile Gelecege Tasiyan Dijital Kulliyat.**
-
-[![Dil: Turkce](https://img.shields.io/badge/Dil-Turkce-red.svg)](#)
-[![License: MIT](https://img.shields.io/badge/Lisans-MIT-yellow.svg)](LICENSE)
-[![PRs Welcome](https://img.shields.io/badge/Katki-Acik-brightgreen.svg)](CONTRIBUTING.md)
-[![Status: Active](https://img.shields.io/badge/Durum-Aktif-blue.svg)](#)
-[![Coverage: 7 Modul](https://img.shields.io/badge/Modul-7%20Alan-orange.svg)](#proje-mimarisi-ve-moduller)
+**Türkiye'nin yeraltı kaynaklarını veri bilimi, otonom sistemler ve yapay zeka ile geleceğe taşıyan en kapsamlı açık kaynaklı strateji ve teknoloji portalı.**
 
 ---
 
-## Temel Felsefe ve Vizyon
-
-**Madencilik-4.0-TR**, madenciligi sadece bir "kazma ve cikarma" islemi olarak degil, bir **veri ve teknoloji disiplini** olarak tanimlar. Turkiye'nin sahip oldugu stratejik yeralti zenginliklerini (Bor, Nadir Toprak Elementleri, Altin, Lityum vb.) modern dunyanin teknolojik imkanlariyla sentezleyerek; surdurulebilir, ekonomik ve teknoloji yogun bir madencilik ekosistemi icin dijital bir referans mimarisi sunmayi hedefler.
-
-> *"Gelecegin madeni yeraltinda degil, verinin icindedir."*
-
-Bu repo; jeoloji muhendislerinden veri bilimcilerine, politika yapicilardan yatirimcilara kadar genis bir kitlenin basvurabilecegi **acik kaynakli, akademik kaliteli ve surekli guncellenen** bir platform olarak tasarlanmistir.
-
----
-
-## Temel Hedefler
-
-| Hedef | Aciklama | Yontem |
-|:---|:---|:---|
-| **Stratejik Otonomi** | Kritik madenlerin (NTE, Lityum) yerli teknolojiyle islenmesi | Teorik ve pratik veri setleri |
-| **Ekolojik Modernizasyon** | Yesil Madencilik prensiplerini YZ ile hayata gecirmek | ESG metrikleri ve simulasyon |
-| **Veri Odakli Karar Destek** | Jeolojik verileri otonom sistemlerle birlestirmek | Dijital Ikiz (Digital Twin) altyapisi |
-| **Teknoloji Transferi** | Kuresel Madencilik 4.0 uygulamalarini Turkiye baglamina uyarlamak | Vaka analizleri ve karsilastirmali tablolar |
-| **Acik Veri Ekosistemi** | Ham veri setlerini GeoJSON/JSON formatinda kamuoyuyla paylasmak | Yapilandirilmis veri kulliyati |
+<p align="center">
+  <img src="https://img.shields.io/badge/Dil-Türkçe-red?style=for-the-badge" alt="Dil">
+  <img src="https://img.shields.io/badge/Lisans-MIT-yellow?style=for-the-badge" alt="Lisans">
+  <img src="https://img.shields.io/badge/Durum-Aktif-blue?style=for-the-badge" alt="Durum">
+  <img src="https://img.shields.io/badge/Sektör-Madencilik%204.0-orange?style=for-the-badge" alt="Sektör">
+  <img src="https://img.shields.io/badge/Katkı-Açık-brightgreen?style=for-the-badge" alt="Katkı">
+</p>
 
 ---
 
-## Proje Mimarisi ve Moduller
+## 🌟 Neden Madencilik 4.0?
+
+Geleneksel madencilik, yerini **veri odaklı**, **otonom** ve **düşük karbon ayak izine** sahip yeni bir endüstriyel devrime bırakıyor. **Madencilik-4.0-TR**, bu dönüşümün Türkiye ayağındaki teknolojik, yasal ve ekonomik eksiklikleri gidermek amacıyla inşa edilmiştir.
+
+*   **Veri Madenciliği:** Jeolojik verileri sadece saklamıyor, otonom kararlar için işliyoruz.
+*   **Stratejik Güvenlik:** Nadir Toprak Elementleri (NTE) ve Bor gibi kritik madenlerde teknolojik tam bağımsızlığı hedefliyoruz.
+*   **İnsan Odaklı Dönüşüm:** Tehlikeli işleri robotlara bırakırken, insan kaynağını dijital yetkinliklerle donatıyoruz.
+
+---
+
+## 🚀 Öne Çıkan Özellikler
+
+- 📊 **Zengin Veri Setleri:** Altın, Bor, Bakır ve NTE üzerine yapılandırılmış JSON/GeoJSON verileri.
+- 🤖 **Teknolojik Derinlik:** Dijital İkiz, IoT, Otonom Filo ve Hidrometalurji analizleri.
+- ⚖️ **Politika ve Strateji:** AB Kritik Hammadde Yasası (CRMA) ve Maden Kanunu üzerine akademik incelemeler.
+- 🚑 **0 Kaza Vizyonu:** Yeraltı güvenlik sistemleri ve dijital acil müdahale planları.
+- 🗺️ **Interaktif Haritalama:** Python tabanlı mekansal analiz ve görselleştirme araçları.
+
+---
+
+## 📂 Proje Mimarisi ve Modüller
+
+Proje, 11 ana modülden ve kapsamlı bir dokümantasyon katmanından oluşmaktadır:
+
+```mermaid
+graph TD
+    Root[Madencilik-4.0-TR] --> V[Veri Setleri]
+    Root --> T[Teknolojiler]
+    Root --> P[Politika & Strateji]
+    Root --> G[Güvenlik & İSG]
+    Root --> E[Eğitim & İK]
+    Root --> I[İhracat & Pazar]
+    
+    V --> V1[Stratejik Metaller]
+    V --> V2[NTE]
+    V --> V3[Bor İstatistikleri]
+    
+    T --> T1[Otonom Sistemler]
+    T --> T2[Dijital İkiz]
+    T --> T3[Blockchain Takip]
+    
+    P --> P1[Maden Kanunu]
+    P --> P2[AB CRMA Uyumu]
+```
+
+<details>
+<summary><b>🔍 Detaylı Dosya Yapısını Görüntüle</b></summary>
 
 ```text
 Madencilik-4.0-TR/
-|
-+-- verisetleri/                          # Ham ve Islenmis Maden Verileri
-|   +-- nadir-toprak-elementleri/
-|   |   +-- nte_rezervleri_turkiye.md    # NTE rezerv analizi
-|   |   +-- nte_kuresel_karsilastirma.md # Kuresel benchmark
-|   |   \-- nte_uretim_teknolojileri.md
-|   +-- endustriyel-hammaddeler/
-|   |   \-- bor_uretim_istatistikleri.json
-|   \-- stratejik-metaller/
-|       +-- altin_potansiyeli.json
-|       +-- bakir_rezervleri.json
-|       \-- lityum_projeksiyonlari.json
-|
-+-- teknolojiler/                         # Madencilik 4.0 Teknolojik Analizleri
-|   +-- otonom-sistemler.md
-|   +-- iot-ve-sensor-aglari.md
-|   +-- uzaktan-algilama.md
-|   +-- yapay-zeka-sismik.md
-|   +-- hidrometalurji-ve-cevher.md
-|   +-- dijital-ikiz.md
-|   \-- blokzincir-maden-takip.md
-|
-+-- maliyet-analizi/                      # Ekonomik Projeksiyonlar
-|   +-- rapor.md
-|   \-- yatirim-getiri-analizi.md
-|
-+-- haritalama/                           # GIS ve Mekansal Analiz
-|   +-- maden_haritalama.py
-|   +-- sample_coordinates.geojson
-|   \-- README.md
-|
-+-- vaka-analizleri/                      # Sektorel Donusum Ornekleri
-|   +-- teknolojik-donusum-ornekleri.md
-|   +-- kuresel-benchmark-madencilik.md
-|   \-- gelecek-senaryolari.md
-|
-+-- etik-ve-cevre/                        # ESG ve Surdurulebilirlik
-|   +-- surdurulebilirlik-standartlari.md
-|   +-- karbon-ayak-izi-hesaplama.md
-|   \-- toplumsal-etki-degerlendirme.md
-|
-+-- politika-ve-strateji/                 # Yasal Cerceve ve Ulusal Vizyon
-|   +-- maden-kanunu-analizi.md
-|   +-- ulusal-maden-politikasi.md
-|   \-- ab-kritik-hammadde-yasasi.md
-|
-+-- guvenlik-ve-is-sagligi/               # 0 Kaza Hedefi ve Dijital Guvenlik
-|   +-- yeralti-guvenlik-sistemleri.md
-|   \-- acil-mudahale-planlama.md
-|
-+-- egitim-ve-insan-kaynagi/              # Yetkinlik Donusumu
-|   \-- dijital-madencilik-egitim-cercevesi.md
-|
-+-- arastirma-ve-inovasyon/               # Yerli Teknoloji Ekosistemi
-|   \-- ar-ge-ekosistemi.md
-|
-+-- ihracat-ve-pazar/                     # Katma Deger Odakli Ticaret
-|   +-- turkiye-maden-ihracati-analizi.md
-|   \-- katma-deger-stratejisi.md
-|
-\-- dokumantasyon/                        # Genel Dokumantasyon ve Kaynakca
-    +-- terimler-sozlugu.md
-    \-- akademik-referanslar.md
+├── verisetleri/                # JSON/CSV Rezerv ve Üretim Verileri
+├── teknolojiler/               # Teknik Analiz ve Uygulama Rehberleri
+├── maliyet-analizi/            # CAPEX/OPEX ve ROI Modelleri
+├── haritalama/                 # GIS Araçları ve GeoJSON Verileri
+├── vaka-analizleri/            # Küresel ve Yerel Başarı Örnekleri
+├── etik-ve-cevre/              # ESG ve Karbon Ayak İzi Hesaplama
+├── politika-ve-strateji/       # Yasal Analizler ve Ulusal Vizyon
+├── guvenlik-ve-is-sagligi/     # Dijital Güvenlik ve 0 Kaza Hedefi
+├── egitim-ve-insan-kaynagi/    # Yetkinlik Dönüşümü ve VR/AR Eğitim
+├── arastirma-ve-inovasyon/     # Yerli Teknoloji ve AR-GE Ekosistemi
+├── ihracat-ve-pazar/           # Katma Değerli Ticaret Stratejileri
+└── dokumantasyon/              # Sözlük ve Akademik Referanslar
 ```
+</details>
 
 ---
 
-## Incelenen Maden Gruplari ve Stratejik Onem
+## 🛠️ Teknoloji Yığını (Tech Stack)
 
-| Grup | Ornek Madenler | Stratejik Kullanim Alani | Turkiye'nin Kuresel Payi |
-|:---|:---|:---|:---|
-| **Kritik Mineraller** | NTE, Lityum, Kobalt | Elektrikli Araclar, Havacilik, Savunma | Bor: **%72** |
-| **Endustriyel Hammaddeler** | Bor, Manyezit, Trona | Cam Sanayii, Tarim, Nukleer Enerji | Bor rezervleri 1. sira |
-| **Metalik Madenler** | Altin, Bakir, Krom | Elektronik, Kuyumculuk, Alasim | Krom: Dunya 5. sirasi |
-| **Enerji Kaynaklari** | Jeotermal, Uranyum, Linyit | Enerji Arz Guvenligi | Jeotermal: 1.700 MWe |
-| **Sanayi Mineralleri** | Feldspat, Kaolen, Perlit | Seramik, Insaat, Sanayi | Feldspat ihracati 1. sira |
-
----
-
-## Turkiye Madencilik Sektoru: Temel Istatistikler (2024)
-
-| Gosterge | Deger | Kaynak |
-|:---|:---|:---|
-| Yillik Maden Ihracat Degeri | ~5,5 Milyar USD | MTA 2024 |
-| Toplam Istihdam | ~130.000 kisi | TMMOB |
-| Aktif Maden Ruhsati | ~18.000 | MAPEG |
-| Bor Rezervi (Dunya Payi) | **%72** | ETI Maden |
-| Mermer Ihracati | ~1,2 Milyar USD | MAPEG |
-| Altin Uretimi | ~42 ton/yil | MTA 2024 |
+| Alan | Kullanılan Teknolojiler / Standartlar |
+|:---|:---|
+| **Veri İşleme** | Python 3.x, Pandas, Numpy, JSON |
+| **GIS / Haritalama** | Folium, Geopandas, GeoJSON, QGIS |
+| **Blokzincir** | Smart Contracts, Traceability Protocols |
+| **Sürdürülebilirlik** | GHG Protocol, ESG Metrikleri, Tier 2-3 Emisyon Hesaplama |
+| **Dokümantasyon** | Markdown, LaTeX (Akademik raporlar için), Mermaid.js |
 
 ---
 
-## Teknik Uygulama: Haritalama Modulu
+## 📊 Sektörel Görünüm (2024)
 
-Repo icerisinde yer alan Python tabanli haritalama araclari, maden sahalarinin mekansal verilerini gorsellestirmek icin kullanilir.
+| Maden | Küresel Rezerv Payı | İhracat Değeri (USD) | Kullanım Alanı |
+|:---|:---:|:---:|:---|
+| **Bor** | %72 | 850M+ | Savunma, Cam, Tarım |
+| **Mermer** | %35 (Çeşitlilik) | 1.8B | İnşaat, Sanat |
+| **Altın** | ~42 Ton/Yıl | — | Finans, Teknoloji |
+| **Krom** | Dünya 5. Sıra | 420M | Paslanmaz Çelik |
 
-### Kurulum ve Kullanim
+---
+
+## 🏁 Hızlı Başlangıç: Haritalama
+
+Maden sahalarını interaktif olarak haritalamak için aşağıdaki adımları izleyin:
 
 ```bash
-# Gerekli kutuphanelerin kurulumu
+# 1. Repoyu klonlayın
+git clone https://github.com/arch-yunus/Madencilik-4.0-TR.git
+
+# 2. Bağımlılıkları yükleyin
 pip install folium pandas geopandas
 
-# Haritayi olusturmak icin
+# 3. Haritalama scriptini çalıştırın
 python haritalama/maden_haritalama.py
 ```
-
-Bu islem sonucunda `haritalama/maden_haritasi.html` dosyasi uretilecek ve tarayici uzerinden interaktif olarak incelenebilecektir.
-
----
-
-## Gelecek Yol Haritasi (Roadmap)
-
-- [x] **Faz 1 - Baslangic:** Temel veri setleri ve modul mimarisinin olusturulmasi.
-- [x] **Faz 2 - Veri Katmani:** NTE, Altin, Bakir JSON veri setlerinin derlenmesi.
-- [ ] **Faz 3 - Teknoloji Katmani:** YSA tabanli havalandirma simulasyonu eklenmesi.
-- [ ] **Faz 4 - Blockchain Prototipi:** Maden sertifikasyon zincirinin dokumante edilmesi.
-- [ ] **Faz 5 - Dashboard:** Web tabanli interaktif gorselestirme platformu.
-- [ ] **Faz 6 - API Entegrasyonu:** Gercek zamanli MTA/MAPEG veri akisi.
-- [ ] **Faz 7 - Simulator:** Tam otonom "Karanlik Maden" simulasyon motoru.
+*Sonuç: `haritalama/maden_haritasi.html` dosyasını tarayıcınızda açın.*
 
 ---
 
-## Katki Alanlari
+## 🗺️ Yol Haritası (Roadmap)
 
-Bu reponun buyumesi icin bekledigimiz katkilar:
-
-- **Veri Setleri:** JSON / GeoJSON / CSV formatlarinda ham rezerv verileri
-- **Saha Raporlari:** Sahadan derlenmis calisma raporlari ve vaka analizleri
-- **Python / R Betikleri:** Jeolojik veri isleme ve gorsellestime araclari
-- **Politika Analizleri:** Yasal cerceve ve ulusal strateji degerlendirmeleri
-- **Kuresel Benchmark:** Dunya madenciligindeki en iyi uygulama ornekleri
-
-### Katki Adimi
-
-1. Depoyu **Fork** edin.
-2. Yeni bir dal acin: `git checkout -b feature/yeni-analiz`
-3. Degisikliklerinizi commit edin: `git commit -m 'Analiz: NTE rezervleri eklendi'`
-4. Daliniza push yapin: `git push origin feature/yeni-analiz`
-5. Bir **Pull Request** acarak topluluğa katki sunun.
+- [x] **Faz 1:** Temel altyapı ve stratejik maden veri setleri.
+- [x] **Faz 2:** ESG ve Karbon Ayak İzi hesaplama modülleri.
+- [x] **Faz 3:** Yasal analizler ve AB CRMA uyum raporları.
+- [ ] **Faz 4:** Yapay Zeka tabanlı sismik yorumlama algoritması (BETA).
+- [ ] **Faz 5:** Web tabanlı interaktif "Maden 4.0 Dashboard" portalı.
+- [ ] **Faz 6:** Blockchain tabanlı mineral takip prototipi.
 
 ---
 
-## Lisans ve Atif
+## 🤝 Katkıda Bulunun
 
-Bu proje **MIT Lisansi** altinda sunulmaktadir. Verilerin akademik ve ticari kullanimi serbesttir; ancak kaynak gosterilmesi rica olunur:
+Bu proje bir topluluk girişimidir. Jeoloji mühendislerinden yazılımcılara kadar herkesin katkısına açığız.
 
-```
-Antigravity AI (2025). Madencilik-4.0-TR: Turkiye'nin Yeni Nesil
-Maden Envanteri ve Teknolojik Cikarim Mimarisi. GitHub.
-https://github.com/arch-yunus/Madencilik-4.0-TR
-```
+1.  **Issue** açarak hataları bildirin veya yeni özellik önerin.
+2.  **Pull Request** göndererek içeriği geliştirin.
+3.  Detaylar için [CONTRIBUTING.md](CONTRIBUTING.md) dosyasını inceleyin.
 
-**Iletisim ve Destek:** Sorulariniz ve isbirligi teklifleriniz icin `Issues` sekmesini kullanabilirsiniz.
+---
+
+## ❓ Sıkça Sorulan Sorular (SSS)
+
+**S: Veriler güncel mi?**
+C: Evet, veriler MTA, MAPEG ve USGS'in 2024 yılı raporları baz alınarak güncellenmektedir.
+
+**S: Verileri ticari projelerde kullanabilir miyim?**
+C: Evet, MIT Lisansı kapsamında kaynak göstererek serbestçe kullanabilirsiniz.
+
+**S: Haritalama modülü hangi koordinat sistemini kullanıyor?**
+C: GeoJSON veri setimiz standart WGS84 (EPSG:4326) sistemini kullanmaktadır.
+
+---
+
+## 📜 Lisans ve Atıf
+
+Bu proje [MIT Lisansı](LICENSE) ile korunmaktadır. Projeyi akademik çalışmalarınızda aşağıdaki şekilde atıf yaparak kullanabilirsiniz:
+
+> *Antigravity AI (2025). Madencilik-4.0-TR: Türkiye'nin Yeni Nesil Maden Envanteri ve Teknolojik Çıkarım Mimarisi.*
+
+---
+
+<p align="center">
+  <b>İletişim & Destek</b><br>
+  Sorularınız için <a href="https://github.com/arch-yunus/Madencilik-4.0-TR/issues">Issues</a> sekmesini kullanabilir veya repo sahibine ulaşabilirsiniz.
+</p>
+.
