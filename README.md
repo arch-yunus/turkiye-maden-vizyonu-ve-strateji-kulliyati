@@ -1,4 +1,6 @@
-﻿# Madencilik-4.0-TR: Yeni Nesil Maden Envanteri ve Teknolojik Cikarim Mimarisi
+﻿![Madencilik 4.0 TR Banner](assets/banner.png)
+
+# Madencilik-4.0-TR: Yeni Nesil Maden Envanteri ve Teknolojik Cikarim Mimarisi
 
 **Turkiye'nin Yeralti Kaynaklarini Endustri 4.0 ve Yapay Zeka ile Gelecege Tasiyan Dijital Kulliyat.**
 
