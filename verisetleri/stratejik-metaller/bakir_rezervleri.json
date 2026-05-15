@@ -1,0 +1,102 @@
+﻿{
+  "meta": {
+    "veri_kaynagi": "MTA, MAPEG, USGS, Sirket Raporlari (2024)",
+    "guncelleme_tarihi": "2025-05",
+    "birim": {
+      "rezerv": "milyon ton bakir metali",
+      "uretim": "bin ton bakir metali",
+      "tenor": "% Cu"
+    }
+  },
+  "turkiye_bakir_genel": {
+    "toplam_rezerv_milyon_ton_Cu": 1.8,
+    "dunya_sirasi": 22,
+    "yillik_uretim_bin_ton_Cu": 130,
+    "ana_uretim_turu": "Piroklastitik bakir + VMS yataklari",
+    "jeolojik_olusum": "Dogu Karadeniz Jeotraversi, Torid kusagi"
+  },
+  "aktif_isletmeler": [
+    {
+      "saha_adi": "Cayeli Bakir (Rize)",
+      "il": "Rize",
+      "ilce": "Cayeli",
+      "koordinat_wgs84": {"lat": 41.08, "lon": 40.72},
+      "mineral_tipi": "VMS (Volkanojenik Masif Sülfür)",
+      "tenor_Cu_pct": 3.8,
+      "yan_metal": ["Çinko (%4.2)", "Kurşun (%0.3)", "Altın (1.2 g/t)"],
+      "gosterge_rezerv_milyon_ton_cevher": 4.2,
+      "isletme_turu": "Yeralti",
+      "yillik_uretim_bin_ton_Cu": 28,
+      "operator": "Inmet Mining (First Quantum Minerals)",
+      "ilk_uretim_yili": 1994,
+      "ozet": "Türkiye'nin en büyük yeralti bakir madeni, Karadeniz VMS kuşağında"
+    },
+    {
+      "saha_adi": "Murgul",
+      "il": "Artvin",
+      "ilce": "Murgul",
+      "koordinat_wgs84": {"lat": 41.21, "lon": 41.57},
+      "mineral_tipi": "Porfiri + VMS",
+      "tenor_Cu_pct": 1.2,
+      "yan_metal": ["Altın (0.3 g/t)"],
+      "gosterge_rezerv_milyon_ton_cevher": 22.0,
+      "isletme_turu": "Açık Ocak",
+      "yillik_uretim_bin_ton_Cu": 45,
+      "operator": "ETİ Bakır (ETİ Holding)",
+      "ilk_uretim_yili": 1952,
+      "ozet": "Türkiye'nin en büyük bakir üreticisi, 70+ yillik tarih"
+    },
+    {
+      "saha_adi": "Küre",
+      "il": "Kastamonu",
+      "ilce": "Küre",
+      "koordinat_wgs84": {"lat": 41.84, "lon": 33.71},
+      "mineral_tipi": "VMS",
+      "tenor_Cu_pct": 2.1,
+      "yan_metal": ["Çinko (%5.1)"],
+      "gosterge_rezerv_milyon_ton_cevher": 3.8,
+      "isletme_turu": "Yeralti",
+      "yillik_uretim_bin_ton_Cu": 12,
+      "operator": "Park Holding",
+      "ilk_uretim_yili": 1986
+    },
+    {
+      "saha_adi": "Masat",
+      "il": "Diyarbakır",
+      "ilce": "Ergani",
+      "koordinat_wgs84": {"lat": 38.26, "lon": 39.75},
+      "mineral_tipi": "Sedimanter (Şistli bakir)",
+      "tenor_Cu_pct": 2.8,
+      "yan_metal": [],
+      "gosterge_rezerv_milyon_ton_cevher": 5.5,
+      "isletme_turu": "Yeralti + Açık Ocak karma",
+      "yillik_uretim_bin_ton_Cu": 18,
+      "operator": "Park Elektrik",
+      "ilk_uretim_yili": 1958
+    }
+  ],
+  "arama_sahalar": [
+    {
+      "saha_adi": "Halilağa",
+      "il": "Çanakkale",
+      "mineral_tipi": "Porfiri bakir-altin",
+      "gosterge_kaynak_milyon_ton_cevher": 280,
+      "tenor_Cu_pct": 0.38,
+      "tenor_Au_gt": 0.07,
+      "operator": "Doğu Biga Madencilik",
+      "durum": "ÇED aşaması, çevresel itirazlar"
+    }
+  ],
+  "kuresel_karsilastirma": {
+    "dunya_kuprum_rezervi_milyon_ton_Cu": 890,
+    "dunya_yillik_uretim_milyon_ton_Cu": 22.0,
+    "en_buyuk_uretici": [
+      {"ulke": "Siili", "pay_pct": 27},
+      {"ulke": "Peru", "pay_pct": 10},
+      {"ulke": "Cin", "pay_pct": 8},
+      {"ulke": "DRC", "pay_pct": 8},
+      {"ulke": "Avustralya", "pay_pct": 5},
+      {"ulke": "Turkiye", "pay_pct": 0.6}
+    ]
+  }
+}

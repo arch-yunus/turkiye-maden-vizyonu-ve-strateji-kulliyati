@@ -1,0 +1,107 @@
+﻿{
+  "meta": {
+    "veri_kaynagi": "ETI Maden Isletmeleri, USGS, MTA (2024)",
+    "guncelleme_tarihi": "2025-05",
+    "birim": {
+      "uretim": "bin ton B2O3 esdeleri",
+      "ihracat_deger": "milyon USD",
+      "rezerv": "milyon ton"
+    }
+  },
+  "turkiye_bor_rezervleri": {
+    "toplam_rezerv_milyon_ton": 1150,
+    "dunya_toplam_milyon_ton": 1600,
+    "turkiye_dunya_payi_pct": 71.9,
+    "ana_yataklar": [
+      {
+        "saha": "Kirka",
+        "il": "Eskisehir",
+        "mineral": "Boraks (Tinkal)",
+        "rezerv_milyon_ton": 640,
+        "isletme_turu": "Açık Ocak",
+        "operator": "ETI Maden",
+        "durum": "Aktif"
+      },
+      {
+        "saha": "Bigadic",
+        "il": "Balikesir",
+        "mineral": "Kolesmanit, Üleksit",
+        "rezerv_milyon_ton": 220,
+        "isletme_turu": "Açık Ocak + Yeralti",
+        "operator": "ETI Maden",
+        "durum": "Aktif"
+      },
+      {
+        "saha": "Kestelek",
+        "il": "Bursa",
+        "mineral": "Kolesmanit",
+        "rezerv_milyon_ton": 110,
+        "isletme_turu": "Açık Ocak",
+        "operator": "ETI Maden",
+        "durum": "Aktif"
+      },
+      {
+        "saha": "Emet",
+        "il": "Kutahya",
+        "mineral": "Kolesmanit, Üleksit",
+        "rezerv_milyon_ton": 180,
+        "isletme_turu": "Açık Ocak",
+        "operator": "ETI Maden",
+        "durum": "Aktif"
+      }
+    ]
+  },
+  "yillik_uretim_serisi": {
+    "birim": "bin ton ham cevher",
+    "yillar": {
+      "2015": 2850,
+      "2016": 3010,
+      "2017": 3180,
+      "2018": 3350,
+      "2019": 3290,
+      "2020": 3050,
+      "2021": 3420,
+      "2022": 3670,
+      "2023": 3540,
+      "2024": 3600
+    }
+  },
+  "urun_dagilimu": {
+    "borik_asit_pct": 38,
+    "sodyum_borat_pct": 32,
+    "kolesmanit_konsantresi_pct": 18,
+    "diger_bor_bilesikleri_pct": 12
+  },
+  "ihracat_verileri": {
+    "2024_toplam_milyon_usd": 850,
+    "ana_pazar": [
+      {"ulke": "ABD", "pay_pct": 22},
+      {"ulke": "Hollanda (AB transit)", "pay_pct": 18},
+      {"ulke": "Japonya", "pay_pct": 12},
+      {"ulke": "Guney Kore", "pay_pct": 9},
+      {"ulke": "Almanya", "pay_pct": 8},
+      {"ulke": "Diger", "pay_pct": 31}
+    ]
+  },
+  "kullanim_alanlari_2024": {
+    "cam_ve_seramik_pct": 42,
+    "tarim_gubre_pct": 22,
+    "temizlik_urunleri_pct": 14,
+    "metalurji_pct": 10,
+    "diger_kimya_pct": 12
+  },
+  "gelecek_talep_projeksiyonu": {
+    "yeni_uygulama_alanlari": [
+      "EV batarya anodu (bor grafen kompozit)",
+      "Hidrojen depolama (NaBH4)",
+      "Bor nitrür yarı iletken",
+      "Bor karbür nükleer zırha"
+    ],
+    "2030_tahmini_talep_bin_ton_B2O3": 4200,
+    "2030_fiyat_projeksiyonu_usd_ton": {
+      "ham_konsantre": 230,
+      "borik_asit": 850,
+      "yüksek_safiyet_bor": 5000
+    }
+  }
+}

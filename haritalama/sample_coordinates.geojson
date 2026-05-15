@@ -1,41 +1,150 @@
-{
+﻿{
   "type": "FeatureCollection",
+  "name": "Turkiye_Maden_Sahalari_Orneklemi",
+  "crs": {
+    "type": "name",
+    "properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}
+  },
   "features": [
     {
       "type": "Feature",
       "properties": {
-        "ad": "Beylikova NTE Sahasi",
-        "tur": "Nadir Toprak Elementleri",
-        "rezerv": "694M Ton"
+        "id": "TR-AU-001", "ad": "Copler Altin Madeni", "il": "Erzincan",
+        "mineral": "Altin", "tenor": "2.5 g/t", "durum": "Aktif",
+        "operator": "Anagold", "yil": 2010, "tip": "Heap Leach + CIL",
+        "kapasite_ton_yil": 12000000
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [31.18, 39.68]
-      }
+      "geometry": {"type": "Point", "coordinates": [38.78, 39.43]}
     },
     {
       "type": "Feature",
       "properties": {
-        "ad": "Kirka Bor Isletmesi",
-        "tur": "Bor",
-        "rezerv": "Yuksek"
+        "id": "TR-AU-002", "ad": "Kisladag Altin Madeni", "il": "Usak",
+        "mineral": "Altin", "tenor": "0.7 g/t", "durum": "Aktif",
+        "operator": "Eldorado Gold (Tuprag)", "yil": 2006, "tip": "Heap Leach",
+        "kapasite_ton_yil": 22000000
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [30.53, 39.29]
-      }
+      "geometry": {"type": "Point", "coordinates": [29.21, 38.86]}
     },
     {
       "type": "Feature",
       "properties": {
-        "ad": "Copler Altin Madeni",
-        "tur": "Altin",
-        "rezerv": "Orta"
+        "id": "TR-AU-003", "ad": "Oksut Altin Madeni", "il": "Kayseri",
+        "mineral": "Altin", "tenor": "1.8 g/t", "durum": "Aktif",
+        "operator": "Centerra Gold", "yil": 2020, "tip": "CIL",
+        "kapasite_ton_yil": 5500000
       },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [38.54, 39.42]
-      }
+      "geometry": {"type": "Point", "coordinates": [35.51, 38.24]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-AU-004", "ad": "Efemcukuru Altin Madeni", "il": "Izmir",
+        "mineral": "Altin", "tenor": "8.5 g/t", "durum": "Aktif",
+        "operator": "Eldorado Gold", "yil": 2011, "tip": "Yeralti-CIL",
+        "kapasite_ton_yil": 680000
+      },
+      "geometry": {"type": "Point", "coordinates": [27.22, 38.37]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-CU-001", "ad": "Murgul Bakir Madeni", "il": "Artvin",
+        "mineral": "Bakir", "tenor": "1.2% Cu", "durum": "Aktif",
+        "operator": "ETI Bakir", "yil": 1952, "tip": "Acik Ocak",
+        "kapasite_ton_yil": 3500000
+      },
+      "geometry": {"type": "Point", "coordinates": [41.57, 41.21]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-CU-002", "ad": "Cayeli Bakir Madeni", "il": "Rize",
+        "mineral": "Bakir-Cinko", "tenor": "3.8% Cu, 4.2% Zn", "durum": "Aktif",
+        "operator": "First Quantum Minerals", "yil": 1994, "tip": "Yeralti-VMS",
+        "kapasite_ton_yil": 750000
+      },
+      "geometry": {"type": "Point", "coordinates": [40.72, 41.08]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-BO-001", "ad": "Kirka Bor Sahasi", "il": "Eskisehir",
+        "mineral": "Bor (Boraks/Tinkal)", "tenor": "%26 B2O3", "durum": "Aktif",
+        "operator": "ETI Maden", "yil": 1965, "tip": "Acik Ocak",
+        "rezerv_milyon_ton": 640
+      },
+      "geometry": {"type": "Point", "coordinates": [30.51, 39.64]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-BO-002", "ad": "Bigadic Bor Sahasi", "il": "Balikesir",
+        "mineral": "Bor (Kolesmanit, Uleksit)", "tenor": "%32 B2O3", "durum": "Aktif",
+        "operator": "ETI Maden", "yil": 1970, "tip": "Acik Ocak + Yeralti",
+        "rezerv_milyon_ton": 220
+      },
+      "geometry": {"type": "Point", "coordinates": [28.12, 39.39]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-BO-003", "ad": "Emet Bor Sahasi", "il": "Kutahya",
+        "mineral": "Bor (Kolesmanit)", "tenor": "%28 B2O3", "durum": "Aktif",
+        "operator": "ETI Maden", "yil": 1972, "tip": "Acik Ocak",
+        "rezerv_milyon_ton": 180
+      },
+      "geometry": {"type": "Point", "coordinates": [29.27, 39.34]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-CR-001", "ad": "Guleman Krom Sahasi", "il": "Elazig",
+        "mineral": "Krom", "tenor": "%42 Cr2O3", "durum": "Aktif",
+        "operator": "Etimaden", "yil": 1935, "tip": "Yeralti",
+        "rezerv_milyon_ton": 8
+      },
+      "geometry": {"type": "Point", "coordinates": [39.52, 38.68]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-NTE-001", "ad": "Eskisehir NTE Anomalisi", "il": "Eskisehir",
+        "mineral": "NTE (Bastnasit, Monazit)", "tenor": "Belirsiz", "durum": "Arama",
+        "operator": "MTA", "yil": null, "tip": "Arama Sahasi",
+        "not": "SWIR anomalisi, sondaj programi planlaniyor"
+      },
+      "geometry": {"type": "Point", "coordinates": [30.92, 39.47]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-NTE-002", "ad": "Konya NTE Gosterge Bulgusu", "il": "Konya",
+        "mineral": "NTE (Monazit)", "tenor": "Belirsiz", "durum": "Gosterge",
+        "operator": "MTA", "yil": null, "tip": "Erken Kesif",
+        "not": "Jeokimyasal anomali, detay calisma gerekiyor"
+      },
+      "geometry": {"type": "Point", "coordinates": [32.49, 37.87]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-LI-001", "ad": "Bigadic Jeotermal Li Potansiyeli", "il": "Balikesir",
+        "mineral": "Lityum (Jeotermal sivi)", "tenor": "45-120 ppm Li", "durum": "Arastirma",
+        "operator": "MTA + OGI", "yil": null, "tip": "DLE Teknoloji Arastirmasi",
+        "not": "Bor sahasi ile sinerjik degerlendirilmeli"
+      },
+      "geometry": {"type": "Point", "coordinates": [28.09, 39.41]}
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "id": "TR-MA-001", "ad": "Kirka Manyezit Sahasi", "il": "Eskisehir",
+        "mineral": "Manyezit", "tenor": "%95+ MgO", "durum": "Aktif",
+        "operator": "Kumas Manyezit", "yil": 1960, "tip": "Acik Ocak",
+        "rezerv_milyon_ton": 45
+      },
+      "geometry": {"type": "Point", "coordinates": [30.48, 39.71]}
     }
   ]
 }
