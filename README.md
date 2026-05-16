@@ -94,13 +94,14 @@ Hedefimize ulaşmak için izlediğimiz teknik ve stratejik araştırma modüller
 - **Vaka Analizleri:** [2024-2025 Dönemi Dev Keşif Analizleri](vaka-analizleri/yerel-maden-analizleri.md). Elazığ Bakır ve Sivas Altın projeleri üzerinden modern arama başarısını dökümante ediyoruz.
 
 ### 🛠️ Modül 2: Maliyet Etkin Çıkarma Teknolojileri
-- **Cevher Ayıklama:** XRT ve NIR teknolojileriyle atık yönetimi ve enerji tasarrufu yöntemleri.
-- **Modern Yöntemler:** [ISL, Bio-Leaching ve HPGR Analizleri](teknolojiler/maliyet-etkin-cikarma-yontemleri.md). Düşük tenörlü cevherlerin ekonomiye kazandırılması için teknolojik yol haritaları.
-- **Robotik ve Otonomi:** Maden sahalarında yerli otonom sistemlerin (İHA, Sürü Robotlar) kullanımı ve operasyonel verimlilik üzerindeki etkileri.
+- **Cevher Ayıklama:** [XRT ve Bio-Leaching Teknolojileri Teknik Analizi](teknolojiler/XRT_ve_BioLeaching_Teknik_Analiz.md). Atık yönetimi ve enerji tasarrufu yöntemleri.
+- **Modern Yöntemler:** [ISL, Bio-Leaching ve HPGR Analizleri](teknolojiler/maliyet-etkin-cikarma-yontemleri.md). Düşük tenörlü cevherlerin ekonomiye kazandırılması.
+- **Robotik ve Otonomi:** Maden sahalarında yerli otonom sistemlerin (İHA, Sürü Robotlar) kullanımı.
 
 ### 📊 Modül 3: Maden Ekonomisi ve Global Strateji
-- **Piyasa Analizi:** [Emtia Süper-Döngüsü ve Türkiye](arastirma-ve-inovasyon/maden-ekonomisi-analizi.md). Küresel piyasalardaki arz-talep dengelerini ve Türkiye'nin emtia borsalarındaki konumunu inceliyoruz.
-- **Yatırım Analizi:** [ROI Hesaplama Modelleri](maliyet-analizi/yatirim-getiri-analizi.md). Teknolojik yatırımların finansal geri dönüşlerini ve risk matrislerini akademik bir dille sunuyoruz.
+- **Potansiyel Analizi:** [3.5 Trilyon Dolarlık Kaynak Hesaplama Modeli](maliyet-analizi/trilyon-dolarlik-potansiyel-hesaplama.md). Milli servetin finansal dökümü ve çarpan etkisi.
+- **Piyasa Analizi:** [Emtia Süper-Döngüsü ve Türkiye](arastirma-ve-inovasyon/maden-ekonomisi-analizi.md). Küresel piyasalardaki arz-talep dengeleri.
+- **Yatırım Analizi:** [ROI Hesaplama Modelleri](maliyet-analizi/yatirim-getiri-analizi.md). Teknolojik yatırımların finansal geri dönüşleri.
 - **Politika:** AB Kritik Hammadde Yasası (CRMA) ve küresel regülasyonların Türkiye madenciliğine etkileri üzerine stratejik incelemeler.
 
 ### 🚑 Modül 4: İnsan Odaklı Güvenlik (Sıfır Kaza)
