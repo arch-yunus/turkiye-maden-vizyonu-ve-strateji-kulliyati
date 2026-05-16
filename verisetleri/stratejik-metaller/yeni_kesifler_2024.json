@@ -1,0 +1,31 @@
+{
+  "proje": "Madencilik-4.0-TR",
+  "veri_seti": "Turkiye Yeni Maden Kesifleri Envanteri 2024-2025",
+  "birim": "Milyon Ton / Ons / USD",
+  "kesifler": [
+    {
+      "lokasyon": "Elazig - Maden",
+      "sirket": "Eti Bakir",
+      "maden_turu": "Bakir, Altin, Kobalt",
+      "rezerv_miktari": "35,000,000 Ton",
+      "yatirim_bedeli": "350,000,000 USD",
+      "isletme_suresi": "35 Yil"
+    },
+    {
+      "lokasyon": "Sivas - Kangal (Alacahan)",
+      "sirket": "Ermaden",
+      "maden_turu": "Altin",
+      "rezerv_miktari": "424,000 Ons (Metalik)",
+      "cevher_miktari": "14,900,000 Ton",
+      "tahmini_deger": "1,700,000,000 USD"
+    },
+    {
+      "lokasyon": "Bilecik - Sogut",
+      "sirket": "Gubretaş Maden",
+      "maden_turu": "Altin",
+      "durum": "Uretime Gecis Asamasinda",
+      "rezerv_miktari": "3.5 Milyon Ons"
+    }
+  ],
+  "stratejik_not": "Yeni kesifler, Turkiye'nin dunya maden uretimindeki payini %15-20 oraninda artirma potansiyeline sahiptir."
+}

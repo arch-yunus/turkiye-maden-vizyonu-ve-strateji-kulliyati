@@ -37,19 +37,22 @@ graph TD
     
     AR --> AR1[Türkiye Maden Envanteri]
     AR --> AR2[Rezerv Analizleri]
+    AR --> AR3[Maden Ekonomisi Analizi]
     
     ME --> ME1[Cevher Ayıklama]
     ME --> ME2[Bio-Leaching]
     ME --> ME3[In-situ Leaching]
+    ME --> ME4[Yerel Vaka Analizleri]
 ```
 
 ### 🔍 Öne Çıkan Araştırma Dosyaları
 
 - 🗺️ **Türkiye Maden Envanteri:** [Bölgesel Rezerv ve Yatak Analizleri](arastirma-ve-inovasyon/turkiye-maden-envanteri.md).
+- 📈 **Maden Ekonomisi:** [Küresel Emtia Piyasaları ve Türkiye](arastirma-ve-inovasyon/maden-ekonomisi-analizi.md).
 - 💰 **Maliyet Etkin Çıkarma:** [Modern ve Verimli Maden Çıkarma Yöntemleri](teknolojiler/maliyet-etkin-cikarma-yontemleri.md).
+- 🇹🇷 **Yerel Başarı Hikayeleri:** [Elazığ Bakır ve Sivas Altın Keşif Analizleri](vaka-analizleri/yerel-maden-analizleri.md).
 - 📜 **Vizyon 2030:** [Türkiye'nin Gelecek Madencilik Stratejisi](dokumantasyon/manifesto.md).
-- 📊 **Ekonomik Analiz:** [NTE Fiyat Endeksi ve Piyasa Projeksiyonları](verisetleri/nadir-toprak-elementleri/nte_fiyat_endeksi.json).
-- 🚑 **İSG ve Güvenlik:** [AI Destekli Modern İş Sağlığı Rehberi](guvenlik-ve-is-sagligi/yapay-zeka-is-sagligi.md).
+- 📊 **Ekonomik Veri:** [NTE Fiyat Endeksi](verisetleri/nadir-toprak-elementleri/nte_fiyat_endeksi.json) ve [Yeni Keşifler 2024](verisetleri/stratejik-metaller/yeni_kesifler_2024.json).
 
 ---
 
