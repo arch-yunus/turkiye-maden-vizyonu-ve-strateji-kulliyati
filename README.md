@@ -54,6 +54,7 @@ Hedefimize ulaşmak için izlediğimiz teknik ve stratejik araştırma modüller
 
 ### 🔍 Modül 1: Türkiye Maden Envanteri ve Rezerv Analizi
 - **Bölgesel Raporlar:** [Yer altı zenginliklerimizin detaylı dökümü](arastirma-ve-inovasyon/turkiye-maden-envanteri.md).
+- **Keşif Envanteri:** [Güncel Keşifler ve Potansiyel (Lityum, Kobalt, NTE) Sahalar](arastirma-ve-inovasyon/guncel-ve-potansiyel-maden-kesifleri.md).
 - **Yeni Keşifler:** [2024-2025 Dönemi Dev Keşif Analizleri](vaka-analizleri/yerel-maden-analizleri.md).
 - **Ekonomik Veri:** [Stratejik Maden Fiyat Endeksleri](verisetleri/nadir-toprak-elementleri/nte_fiyat_endeksi.json).
 
