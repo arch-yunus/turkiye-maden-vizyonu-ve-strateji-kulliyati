@@ -71,16 +71,16 @@ graph TD
 Madencilik-4.0-TR/
 ├── verisetleri/                # JSON/CSV Rezerv ve Üretim Verileri
 ├── teknolojiler/               # Teknik Analiz ve Uygulama Rehberleri
-├── maliyet-analizi/            # CAPEX/OPEX ve ROI Modelleri
+├── maliyet-analizi/            # CAPEX/OPEX, ROI Modelleri ve [ROI Hesaplayıcı](maliyet-analizi/roi_hesaplayici.py)
 ├── haritalama/                 # GIS Araçları ve GeoJSON Verileri
-├── vaka-analizleri/            # Küresel ve Yerel Başarı Örnekleri
+├── vaka-analizleri/            # Küresel (Pilbara) ve Yerel Başarı Örnekleri
 ├── etik-ve-cevre/              # ESG ve Karbon Ayak İzi Hesaplama
 ├── politika-ve-strateji/       # Yasal Analizler ve Ulusal Vizyon
-├── guvenlik-ve-is-sagligi/     # Dijital Güvenlik ve 0 Kaza Hedefi
+├── guvenlik-ve-is-sagligi/     # AI Destekli İSG ve 0 Kaza Hedefi
 ├── egitim-ve-insan-kaynagi/    # Yetkinlik Dönüşümü ve VR/AR Eğitim
 ├── arastirma-ve-inovasyon/     # Yerli Teknoloji ve AR-GE Ekosistemi
 ├── ihracat-ve-pazar/           # Katma Değerli Ticaret Stratejileri
-└── dokumantasyon/              # Sözlük ve Akademik Referanslar
+└── dokumantasyon/              # Sözlük, Manifesto ve Akademik Referanslar
 ```
 </details>
 

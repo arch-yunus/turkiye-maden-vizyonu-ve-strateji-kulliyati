@@ -1,0 +1,48 @@
+{
+  "veri_seti": "Nadir Toprak Elementleri Kuresel Fiyat Endeksi",
+  "donem": "2024-2025 Projeksiyon",
+  "birim": "USD/kg",
+  "elementler": [
+    {
+      "sembol": "Nd",
+      "isim": "Neodimyum",
+      "fiyat_2024": 95,
+      "tahmin_2025": 110,
+      "talep_artisi": "%12",
+      "kullanim": "EV Motorlari, Ruzgar Turbinleri"
+    },
+    {
+      "sembol": "Pr",
+      "isim": "Praseodimyum",
+      "fiyat_2024": 88,
+      "tahmin_2025": 102,
+      "talep_artisi": "%10",
+      "kullanim": "Yuksek Mukavemetli Alasimlar"
+    },
+    {
+      "sembol": "Dy",
+      "isim": "Disprozyum",
+      "fiyat_2024": 340,
+      "tahmin_2025": 385,
+      "talep_artisi": "%15",
+      "kullanim": "Nukleer Kontrol Cubuklari, Laserler"
+    },
+    {
+      "sembol": "Tb",
+      "isim": "Terbiyum",
+      "fiyat_2024": 1200,
+      "tahmin_2025": 1450,
+      "talep_artisi": "%20",
+      "kullanim": "Yakit Hucreleri, Optik Cihazlar"
+    },
+    {
+      "sembol": "La",
+      "isim": "Lantan",
+      "fiyat_2024": 2.5,
+      "tahmin_2025": 3.0,
+      "talep_artisi": "%5",
+      "kullanim": "Hibrit Arac Bataryalari, Kamera Lensleri"
+    }
+  ],
+  "not": "Fiyatlar kuresel piyasa ortalamalari baz alinarak Madencilik-4.0-TR tarafindan simule edilmistir."
+}
