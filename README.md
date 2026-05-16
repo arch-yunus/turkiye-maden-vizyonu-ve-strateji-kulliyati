@@ -1,6 +1,6 @@
-![Madencilik 4.0 TR Banner](assets/banner_v2.png)
+![Madencilik 4.0 TR Banner](assets/banner_v3.png)
 
-# ⛏️ Madencilik-4.0-TR: Türkiye Maden Araştırmaları ve Strateji Portalı
+# ⛏️ Türkiye Maden Vizyonu ve Strateji Külliyatı
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
