@@ -67,9 +67,13 @@ Hedefimize ulaşmak için izlediğimiz teknik ve stratejik araştırma modüller
 - **Yatırım Analizi:** [Maliyet ve ROI Hesaplama Modelleri](maliyet-analizi/yatirim-getiri-analizi.md).
 - **Politika:** AB Kritik Hammadde Yasası (CRMA) Uyumu.
 
-### 🚑 Modül 4: İnsan Odaklı Güvenlik (Sıfır Kaza)
+### Modül 4: İnsan Odaklı Güvenlik (Sıfır Kaza)
 - **Yapay Zeka Destekli İSG:** [Kaza Önleme ve Personel Takip Sistemleri](guvenlik-ve-is-sagligi/yapay-zeka-is-sagligi.md).
 - **Dönüşüm:** Maden işçisinden "Dijital Operasyon Uzmanı"na yetkinlik geçişi.
+
+### Modül 5: Yeni Nesil Maden Arama (Mineral Exploration)
+- **Teknoloji:** [AI, Hiperspektral ve Metagenomik Keşif Yöntemleri](arastirma-ve-inovasyon/yeni-nesil-maden-arama.md).
+- **Strateji:** Türkiye'nin Keşif Liderliği ve Ulusal Veri Gölü Vizyonu.
 
 ---
 
