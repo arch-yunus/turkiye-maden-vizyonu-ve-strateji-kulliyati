@@ -31,6 +31,7 @@ Geleneksel madencilik, yerini **veri odaklı**, **otonom** ve **düşük karbon 
 - 📊 **Zengin Veri Setleri:** Altın, Bor, Bakır ve NTE üzerine yapılandırılmış JSON/GeoJSON verileri.
 - 🤖 **Teknolojik Derinlik:** Dijital İkiz, IoT, Otonom Filo ve Hidrometalurji analizleri.
 - 🖥️ **Interaktif Dashboard:** [Madencilik 4.0 Komuta Kontrol Merkezi](dashboard/index.html) (Gerçek zamanlı simülasyon).
+- 📜 **Manifesto:** [Gelecek Vizyonu ve Motivasyon](dokumantasyon/manifesto.md).
 - 🚀 **Vizyon 5.0:** [Geleceğin Madencilik Yol Haritası](dokumantasyon/madencilik-5-0-vizyonu.md).
 - ⚖️ **Politika ve Strateji:** AB Kritik Hammadde Yasası (CRMA) ve Maden Kanunu üzerine akademik incelemeler.
 - 🚑 **0 Kaza Vizyonu:** Yeraltı güvenlik sistemleri ve dijital acil müdahale planları.
