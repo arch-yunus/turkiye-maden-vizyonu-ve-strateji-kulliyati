@@ -1,4 +1,4 @@
-![Madencilik 4.0 TR Banner](assets/banner.png)
+![Madencilik 4.0 TR Banner](assets/banner_v2.png)
 
 # ⛏️ Madencilik-4.0-TR: Yeni Nesil Dijital Maden Külliyatı
 
