@@ -15,17 +15,17 @@
 
 ---
 
-## 📖 Projenin Amacı ve Kapsamı
+## 📖 Giriş: Projenin Amacı ve Kapsamı
 
-**Madencilik-4.0-TR**, bir yazılım deposu olmanın ötesinde; Türkiye'deki maden yataklarının jeolojik potansiyelini, maliyet etkin çıkarma teknolojilerini ve sektörel gelecek vizyonunu bir araya getiren kapsamlı bir **araştırma portalıdır.** 
+**Madencilik-4.0-TR**, geleneksel madencilik pratiklerinin dijital dönüşüm (Mining 4.0) ve sürdürülebilirlik ilkeleriyle yeniden yorumlandığı bir **araştırma portalıdır.** Bu platform, Türkiye'deki maden yataklarının jeolojik potansiyelini, maliyet etkin çıkarma teknolojilerini ve küresel piyasalardaki stratejik konumunu bilimsel bir perspektifle ele almaktadır.
 
-Amacımız; jeoloji mühendislerinden yatırımcılara, akademisyenlerden politika yapıcılara kadar tüm paydaşlar için derinlikli, güncel ve bilimsel bir referans kaynağı oluşturmaktır.
+Amacımız; jeoloji mühendislerinden yatırımcılara, akademisyenlerden politika yapıcılara kadar tüm paydaşlar için derinlikli, güncel ve açık kaynaklı bir referans kütüphanesi oluşturmaktır.
 
 ---
 
-## 📂 Araştırma Modülleri ve İçerik
+## 📂 Araştırma Modülleri ve Mimari
 
-Proje, madenciliğin her boyutunu ele alan 12 ana araştırma katmanından oluşmaktadır:
+Proje, madencilik sektörünün tüm dikey bileşenlerini kapsayan 12 ana araştırma katmanından oluşmaktadır:
 
 ```mermaid
 graph TD
@@ -56,30 +56,53 @@ graph TD
 
 ---
 
-## 🛠️ İncelenen Teknolojik Yöntemler (Methodologies)
+## 🛠️ Teknolojik ve Metodolojik Odak Alanları
 
-Bu portalda ele alınan maliyet etkin yöntemler, operasyonel verimliliği maksimize etmeyi hedefler:
+Bu portalda ele alınan maliyet etkin çıkarma yöntemleri, birim maliyeti düşürürken operasyonel verimliliği maksimize etmeyi hedefler:
 
-1.  **Cevher Ayıklama (Ore Sorting):** XRT ve NIR teknolojileriyle atık kayanın tesise girmeden elenmesi.
-2.  **Biyohidrometalurji:** Düşük tenörlü cevherlerin bakteriyel oksidasyon ile ekonomiye kazandırılması.
-3.  **Yerinde Çözeltme (ISL):** Minimum yüzey tahribatı ve düşük CAPEX ile maden çıkarma.
-4.  **Hidrojen Yakıtlı Filolar:** Maden sahalarında karbon ayak izini sıfırlayan enerji dönüşümü.
-
----
-
-## 💎 Stratejik Odak Madenler
-
-| Maden Grubu | Türkiye'deki Önemi | Araştırma Dosyası |
-|:---|:---|:---|
-| **Bor Mineralleri** | Dünya rezervinin %73'ü | [Bor Strateji Raporu](verisetleri/stratejik-metaller/bor_istatistikleri.json) |
-| **NTE (Rare Earth)** | Dünyanın en büyük 2. rezervi | [Beylikova Rezerv Analizi](verisetleri/nadir-toprak-elementleri/nte_rezervleri_turkiye.md) |
-| **Bakır ve Altın** | Stratejik ihracat ve sanayi ham maddesi | [Metalik Maden Envanteri](arastirma-ve-inovasyon/turkiye-maden-envanteri.md) |
+1.  **Cevher Ayıklama (Ore Sorting):** XRT (X-Ray) ve NIR teknolojileriyle atık kayanın değirmene girmeden önce ayıklanması.
+2.  **Biyohidrometalurji (Bio-Leaching):** Düşük tenörlü veya karmaşık cevherlerin mikroorganizmalar yardımıyla ekonomiye kazandırılması.
+3.  **Yerinde Çözeltme (In-Situ Leaching):** Yüzey tahribatını minimize eden, CAPEX dostu sıvı çıkarma teknolojisi.
+4.  **Dijital İkiz ve Veri Analitiği:** Maden sahalarının dijital ikizleri üzerinden enerji ve iş gücü optimizasyonu.
 
 ---
 
-## 🤝 Katkıda Bulunma
+## 💎 Stratejik Maden Portföyü ve Türkiye Analizi
 
-Bu bir açık kaynaklı araştırma topluluğudur. Akademik çalışmalarınızı, vaka analizlerinizi veya teknik verilerinizi paylaşarak bu külliyatın gelişmesine katkıda bulunabilirsiniz.
+| Maden Grubu | Küresel Rezerv Payı | Stratejik Rol | Araştırma Dosyası |
+|:---|:---:|:---|:---|
+| **Bor Mineralleri** | %73 | Enerji, Nükleer, Savunma | [Bor Stratejisi](verisetleri/stratejik-metaller/bor_istatistikleri.json) |
+| **NTE (Rare Earth)** | Dünya 2.si | Yeşil Teknoloji, EV, Çip | [Beylikova Raporu](verisetleri/nadir-toprak-elementleri/nte_rezervleri_turkiye.md) |
+| **Bakır (Cu)** | Artan Potansiyel | Elektrifikasyon, Yenilenebilir | [Bakır Analizi](vaka-analizleri/yerel-maden-analizleri.md) |
+| **Altın (Au)** | ~6500 Ton Potansiyel | Finansal Güvence, Cari Açık | [Altın Envanteri](arastirma-ve-inovasyon/turkiye-maden-envanteri.md) |
+
+---
+
+## 🔭 Sektörel Görünüm 2025-2030 Projeksiyonu
+
+Türkiye madencilik sektörü için önümüzdeki 5 yılın ana trendleri:
+- **Katma Değerli İhracat:** Ham cevher yerine uç ürün (bor karbür, bakır tel vb.) ihracatına odaklanma.
+- **Kritik Hammadde Yasası (CRMA) Uyumu:** AB pazarı için izlenebilir ve etik madencilik sertifikasyonu.
+- **Derin Deniz ve Otonom Madencilik:** Yeni sınırların keşfi ve yerli robotik sistemlerin entegrasyonu.
+
+---
+
+## 🤝 Katkıda Bulunma ve Akademik İş Birliği
+
+Bu portal, kolektif bir araştırma topluluğudur. Aşağıdaki alanlarda katkı sağlayabilirsiniz:
+- Yeni maden yataklarına dair saha verileri ve jeolojik raporlar.
+- Maliyet analizleri ve teknolojik uygulama vaka çalışmaları.
+- Sektörel yasal mevzuat incelemeleri ve politika önerileri.
+
+---
+
+## ❓ Sıkça Sorulan Sorular (SSS)
+
+**S: Veriler hangi kaynaklara dayanmaktadır?**
+C: İçerikler; MTA, MAPEG, USGS ve ilgili şirketlerin (Eti Maden, Eti Bakır vb.) resmi raporları ile akademik literatür taramalarına dayanmaktadır.
+
+**S: İçeriği ticari veya akademik projelerimde kullanabilir miyim?**
+C: Evet, projemiz MIT Lisansı altındadır. Kaynak göstererek (Atıf yaparak) dilediğiniz gibi kullanabilirsiniz.
 
 ---
 
@@ -92,5 +115,6 @@ Bu proje [MIT Lisansı](LICENSE) ile korunmaktadır. Akademik çalışmalarını
 ---
 
 <p align="center">
-  <b>Türkiye'nin yer altı zenginliklerini bilgiyle işliyoruz.</b>
+  <b>Türkiye'nin yer altı zenginliklerini bilgiyle işliyoruz.</b><br>
+  <i>"Gelecek, toprağın altındaki cevheri aklın ışığıyla birleştirenlerindir."</i>
 </p>
