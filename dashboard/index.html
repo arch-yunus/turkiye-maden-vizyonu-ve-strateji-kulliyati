@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Madencilik 4.0 | Komuta Kontrol Merkezi</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <div class="dashboard-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="logo">
+                <span class="icon">⛏️</span>
+                <h1>MADENCİLİK 4.0</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="active" id="nav-overview">Genel Bakış</li>
+                    <li id="nav-iot">IoT Sensörleri</li>
+                    <li id="nav-fleet">Otonom Filo</li>
+                    <li id="nav-reserve">Rezerv Analizi</li>
+                    <li id="nav-env">Çevresel Etki</li>
+                    <li id="nav-blockchain">Blokzincir Takip</li>
+                </ul>
+            </nav>
+            <div class="status-panel">
+                <div class="status-item">
+                    <span>Saha Durumu:</span>
+                    <span class="status-badge online">AKTİF</span>
+                </div>
+                <div class="status-item">
+                    <span>Otonomi Seviyesi:</span>
+                    <span class="value">Seviye 4</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="main-header">
+                <div class="header-info">
+                    <h2>Operasyonel Kontrol Paneli</h2>
+                    <p id="current-date">-- -- 2026</p>
+                </div>
+                <div class="header-actions">
+                    <button class="btn btn-warning">ACİL DURUM STOP</button>
+                </div>
+            </header>
+
+            <section class="stats-grid">
+                <div class="stat-card">
+                    <h3>Üretim Verimi</h3>
+                    <div class="stat-value" id="yield-value">94.2%</div>
+                    <div class="stat-trend positive">+2.4% ↑</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Enerji Tüketimi</h3>
+                    <div class="stat-value" id="energy-value">1,240 kWh</div>
+                    <div class="stat-trend negative">-15% ↓</div>
+                </div>
+                <div class="stat-card">
+                    <h3>Aktif İş Gücü (Otonom)</h3>
+                    <div class="stat-value" id="worker-value">12 / 85</div>
+                    <div class="stat-trend">Hibrit Mod</div>
+                </div>
+                <div class="stat-card">
+                    <h3>CO2 Emisyonu</h3>
+                    <div class="stat-value" id="co2-value">0.85 t</div>
+                    <div class="stat-trend positive">Limit Altında</div>
+                </div>
+            </section>
+
+            <section class="charts-grid">
+                <div class="chart-container large">
+                    <h3>Gerçek Zamanlı Hava Kalitesi (Yeraltı)</h3>
+                    <canvas id="iot-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Rezerv Dağılımı (NTE)</h3>
+                    <canvas id="reserve-chart"></canvas>
+                </div>
+                <div class="chart-container">
+                    <h3>Ekipman Sağlığı</h3>
+                    <canvas id="health-chart"></canvas>
+                </div>
+            </section>
+
+            <section class="bottom-grid">
+                <div class="alert-panel">
+                    <h3>Sistem Uyarıları</h3>
+                    <div class="alert-list" id="alert-list">
+                        <!-- Alerts will be injected by JS -->
+                    </div>
+                </div>
+                <div class="fleet-map">
+                    <h3>Otonom Filo Konum Takibi</h3>
+                    <div class="map-placeholder">
+                        <div class="map-grid"></div>
+                        <div class="fleet-unit truck" style="top: 30%; left: 40%;">T-101</div>
+                        <div class="fleet-unit drill" style="top: 60%; left: 70%;">D-204</div>
+                        <div class="fleet-unit truck" style="top: 20%; left: 80%;">T-102</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Blockchain Panel (Hidden by default) -->
+            <section id="blockchain-panel" style="display: none; margin-top: 30px;">
+                <div class="chart-container large">
+                    <h3>Değişmez Maden Takip Defteri (Blockchain Ledger)</h3>
+                    <div id="blockchain-list" class="alert-list">
+                        <!-- Transactions injected by JS -->
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

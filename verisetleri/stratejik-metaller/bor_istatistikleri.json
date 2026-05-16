@@ -1,0 +1,51 @@
+{
+  "proje": "Madencilik-4.0-TR",
+  "veri_seti": "Turkiye Bor Istatistikleri 2024",
+  "kaynak": "Eti Maden / MAPEG / USGS",
+  "birim": "Metrik Ton / USD",
+  "ozet_veriler": {
+    "dunya_rezerv_payi": 0.73,
+    "toplam_satis_miktari_2024": 2500000,
+    "toplam_gelir_usd": 1300000000,
+    "ihracat_orani": 0.97,
+    "kuresel_pazar_payi": 0.60
+  },
+  "ana_yataklar": [
+    {
+      "bolge": "Eskisehir-Kirka",
+      "mineral": "Tinkal",
+      "kapasite": "Yuksek"
+    },
+    {
+      "bolge": "Kutahya-Emet",
+      "mineral": "Kolemanit",
+      "kapasite": "Yuksek"
+    },
+    {
+      "bolge": "Balikesir-Bigadic",
+      "mineral": "Kolemanit / Uleksit",
+      "kapasite": "Orta-Yuksek"
+    },
+    {
+      "bolge": "Bursa-Kestelek",
+      "mineral": "Kolemanit",
+      "kapasite": "Orta"
+    }
+  ],
+  "katma_degerli_urunler": [
+    {
+      "urun": "Bor Karbur",
+      "kullanim_alani": "Savunma Sanayii / zirh",
+      "durum": "Uretim Basladi"
+    },
+    {
+      "urun": "Lityum Karbonat (Bor Yan Urunu)",
+      "kullanim_alani": "Batarya Teknolojileri",
+      "durum": "Pilot Tesis"
+    }
+  ],
+  "projeksiyon_2025": {
+    "hedef_gelir": 1500000000,
+    "odak_noktasi": "Nis urunler ve Ar-Ge"
+  }
+}

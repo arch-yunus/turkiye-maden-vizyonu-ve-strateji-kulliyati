@@ -30,6 +30,8 @@ Geleneksel madencilik, yerini **veri odaklı**, **otonom** ve **düşük karbon 
 
 - 📊 **Zengin Veri Setleri:** Altın, Bor, Bakır ve NTE üzerine yapılandırılmış JSON/GeoJSON verileri.
 - 🤖 **Teknolojik Derinlik:** Dijital İkiz, IoT, Otonom Filo ve Hidrometalurji analizleri.
+- 🖥️ **Interaktif Dashboard:** [Madencilik 4.0 Komuta Kontrol Merkezi](dashboard/index.html) (Gerçek zamanlı simülasyon).
+- 🚀 **Vizyon 5.0:** [Geleceğin Madencilik Yol Haritası](dokumantasyon/madencilik-5-0-vizyonu.md).
 - ⚖️ **Politika ve Strateji:** AB Kritik Hammadde Yasası (CRMA) ve Maden Kanunu üzerine akademik incelemeler.
 - 🚑 **0 Kaza Vizyonu:** Yeraltı güvenlik sistemleri ve dijital acil müdahale planları.
 - 🗺️ **Interaktif Haritalama:** Python tabanlı mekansal analiz ve görselleştirme araçları.
@@ -157,6 +159,7 @@ Madencilik-4.0-TR, çevresel etkiyi minimize etmek için aşağıdaki metrikleri
 | **GIS / Haritalama** | Folium, Geopandas, GeoJSON, QGIS |
 | **Blokzincir** | Smart Contracts, Traceability Protocols |
 | **Sürdürülebilirlik** | GHG Protocol, ESG Metrikleri, Tier 2-3 Emisyon Hesaplama |
+| **İSG & Güvenlik** | AI Görüntü İşleme, UWB Konumlama, Risk Skoru Algoritmaları |
 | **Dokümantasyon** | Markdown, LaTeX (Akademik raporlar için), Mermaid.js |
 
 ---
@@ -195,9 +198,10 @@ python haritalama/maden_haritalama.py
 - [x] **Faz 1:** Temel altyapı ve stratejik maden veri setleri.
 - [x] **Faz 2:** ESG ve Karbon Ayak İzi hesaplama modülleri.
 - [x] **Faz 3:** Yasal analizler ve AB CRMA uyum raporları.
-- [ ] **Faz 4:** Yapay Zeka tabanlı sismik yorumlama algoritması (BETA).
-- [ ] **Faz 5:** Web tabanlı interaktif "Maden 4.0 Dashboard" portalı.
-- [ ] **Faz 6:** Blockchain tabanlı mineral takip prototipi.
+- [x] **Faz 4:** Yapay Zeka tabanlı sismik yorumlama algoritması (BETA).
+- [x] **Faz 5:** Web tabanlı interaktif "Maden 4.0 Dashboard" portalı. (TAMAMLANDI 🚀)
+- [x] **Faz 6:** Blockchain tabanlı mineral takip prototipi. (TAMAMLANDI 🛠️)
+- [ ] **Faz 7:** Küresel maden piyasası için gerçek zamanlı API entegrasyonu.
 
 ---
 
